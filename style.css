@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* centralize the contend */
+    display: flex;
+    align-content: center;
+    align-items: start;
+    min-height: 100vh;
+    /* background: #000; */
+}
+
+.teste {
+    /*  put two texts in two culumns */
+    display: flex;
+    flex-direction: row;
+    /* centralize the contend */
+    justify-content: start;
+}
+
+.visited {
+    color: #fff;
+}
+
+.btn-1:hover {
+    color: #fff;
+}
+
+.padding {
+    padding-bottom: 1.5%;
+}
+
+#horizontal-line {
+    margin-left: 10%;
+    margin-bottom: 1.5%;
+    width: 80%;
+    height: 2px;
+    background-color: green;
+}
+
+.container .nav .active {
+    color: #000;
+}
