@@ -44,3 +44,12 @@ body {
 .container .nav .active {
     color: #000;
 }
+
+.custom {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.card-margin {
+    margin-top: 10%;
+}
